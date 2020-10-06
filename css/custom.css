@@ -2,7 +2,9 @@ body {
   font-family: 'Cabin', sans-serif;
   text-shadow: 0px 1px 1px rgba(0, 0, 0, 0.3);
   color: #fff;
-  background: url("../images/avion_bg.jpg") no-repeat center center fixed;
+  /* background: url("../images/avion_bg.jpg") no-repeat center center fixed; */
+  background-color: #02bb8d; 
+  
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
@@ -49,7 +51,15 @@ Loading section
 Header Section
 */
 .header-logo-wrapper {
-  margin: 50px 0px 70px 0px;
+  margin: 20px 0;
+}
+
+/* 
+Main Section
+*/
+.main-wrapper {
+  padding: 25px 0;
+  background-color: #323433;
 }
 
 /*
@@ -131,7 +141,7 @@ countdown timer section
  Social media section
  */
 .social-media-wrapper {
-  margin: 30px 0;
+  margin: 20px 0;
   font-size: 25px;
 }
 
